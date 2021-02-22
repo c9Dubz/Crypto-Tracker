@@ -4,6 +4,7 @@ Two simple python programs to track prices of crypto currencies; one using data 
 ## Requirements 1:
 ![Python Badge](https://img.shields.io/badge/-python-blue)
 ![Selenium Badge](https://img.shields.io/badge/pip%20install-selenium-informational)
+![WebDriver Badge](https://img.shields.io/badge/web%20driver-for%20chrome-important)
 
 ## Requirements 2:
 ![Python Badge](https://img.shields.io/badge/-python-blue)
