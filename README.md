@@ -4,7 +4,8 @@ Two simple python programs to track prices of crypto currencies; one using data 
 
 <p float="left">
   <img src="https://media.giphy.com/media/VcxAqj4nww467vbOYQ/giphy.gif" width="350px"> 
-  <img src="https://media.giphy.com/media/fSjbXEbRcxfYWlMQhI/giphy.gif" width="350px"> 
+  <img src="https://media.giphy.com/media/UtP6NPIIThVZ0xEb3y/giphy.gif" width="350px">
+  <img src="https://media.giphy.com/media/fSjbXEbRcxfYWlMQhI/giphy.gif" width="400px"> 
 </p>
 
 
