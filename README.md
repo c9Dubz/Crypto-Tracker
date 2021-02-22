@@ -1,4 +1,5 @@
-# Crypto-Tracker <img src="https://media.giphy.com/media/WpZGFXIhPgohr6lLaG/giphy.gif" width="30px">
+# Crypto-Tracker <img src="https://media.giphy.com/media/CgCaB0B0zYp4kVhNPf/giphy.gif" width="50px"> 
+
 Two simple python programs to track prices of crypto currencies; one using data on Google Search and one using Coinbase API to grab realtime prices
 
 ## Requirements 1:
