@@ -3,7 +3,6 @@
 from selenium import webdriver
 import datetime
 
-
 # Selenium commands function to grab prices
 def search(crypto):
     # Download and add Web Drvier to path
@@ -20,7 +19,6 @@ def search(crypto):
     # Store variables
     return crypto_price, currency
 
-
 # Ask user what crypto currency he wants to enquire about
 crypto_currency = input("What crypto currency do you want to check on? ")
 
@@ -33,4 +31,3 @@ try:
 # Except block is information is missing or invalid input
 except:
     print("There was an issue in completing your query.")
-
