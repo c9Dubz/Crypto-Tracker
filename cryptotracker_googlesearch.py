@@ -1,5 +1,5 @@
 # Description: Automate checking prices of crypto currencies
-# Import modules
+# Import modules/librairies
 from selenium import webdriver
 import datetime
 
