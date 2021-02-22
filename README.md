@@ -2,8 +2,8 @@
 
 Two simple python programs to track prices of crypto currencies; one using data on Google Search and one using Coinbase API to grab realtime prices. 
 
-<img src="https://media.giphy.com/media/VcxAqj4nww467vbOYQ/giphy.gif" width="500px"> 
-
+<img src="https://media.giphy.com/media/VcxAqj4nww467vbOYQ/giphy.gif" width="350px"> 
+<img src="https://media.giphy.com/media/fSjbXEbRcxfYWlMQhI/giphy.gif" width="350px"> 
 
 ## Requirements 1:
 ![Python Badge](https://img.shields.io/badge/-python-blue)
