@@ -4,21 +4,15 @@
 import datetime
 # import client from coinbase
 from coinbase.wallet.client import Client
-# Store api key and api secret from coinbase.com/settings/api
+# Store api key and api secret from coinbase.com/settings/api in a variable
 user = Client(<api-key>, <api-secret>)
 # Ask user what crypto currency he wants to know the price of 
-input_text = "What cryptocurrency do you want to check on?\nEnter the in this format 'cryptocurrency-currency': "
+input_text = "What cryptocurrency do you want to check on?\nEnter in this format 'cryptocurrency-localcurrency': "
 while True:
     currency_pair = input(input_text)
     try:
         # Grab spot price of crypto currency from Coinbase
-        # Returns a dictionari in the format:
-        #{
-        #"data": {
-        #"amount": "1015.00",
-        #"currency": "USD"
-        #}
-        #}
+        # Returns a dictionary
         price = user.get_spot_price(currency_pair=currency_pair.upper())
         # Store each value in a variable
         amount = price["amount"]
