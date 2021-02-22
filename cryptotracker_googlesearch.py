@@ -6,6 +6,7 @@ import datetime
 
 # Selenium commands function to grab prices
 def search(crypto):
+    # Download and add Web Drvier to path
     driver = webdriver.Chrome()
     driver.get('https://google.com')
     google_search = driver.find_element_by_xpath('/html/body/div[1]/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input')
@@ -16,7 +17,7 @@ def search(crypto):
 
     crypto_price = driver.find_element_by_xpath('//*[@id="knowledge-currency__updatable-data-column"]/div[1]/div[2]/span[1]').text
     currency = driver.find_element_by_xpath('//*[@id="knowledge-currency__updatable-data-column"]/div[1]/div[2]/span[2]').text
-
+    # Store variables
     return crypto_price, currency
 
 
